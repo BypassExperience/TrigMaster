@@ -1,0 +1,9 @@
+@keyframes rotate-wave {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 1000; }
+}
+
+.wave-line {
+  stroke-dasharray: 6;
+  animation: rotate-wave 12s linear infinite;
+}
